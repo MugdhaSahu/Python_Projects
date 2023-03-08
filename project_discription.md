@@ -1,0 +1,10 @@
+# Unsupervised Learning
+## Project: Customer Segment Analysis
+
+## Description
+A wholesale distributor recently tested a change to their delivery method for some customers, by moving from a morning delivery service five days a week to a cheaper evening delivery service three days a week. Initial testing did not discover any significant unsatisfactory results, so they implemented the cheaper option for all customers. Almost immediately, the distributor began getting complaints about the delivery service change and customers were canceling deliveries, losing the distributor more money than what was being saved. I've been hired by the wholesale distributor to find what types of customers they have to help them make better, more informed business decisions in the future. The task is to use unsupervised learning techniques to see if any similarities exist between customers, and how to best segment customers into distinct categories.
+
+## Project Highlights
+Many companies today collect vast amounts of data on customers and clientele, and have a strong desire to understand the meaningful relationships hidden in their customer base. Being equipped with this information can assist a comp any engineer future products and services that best satisfy the demands or needs of their customers.
+
+In this project I leveraged unsupervised learning techniques on product spending data collected for customers of a wholesale distributor in Lisbon, Portugal to identify customer segments hidden in the data. I first explored the data by selecting a small subset to sample and determine if any product categories highly correlate with one another. Afterwards, I preprocessed the data by scaling each product category and then identified (and removed) unwanted outliers. With the good, cleaned customer spending data, I applied PCA transformations to the data and implemented clustering algorithms to segment the transformed customer data. Finally, I compared the segmentation found with an additional labeling and consider ways this information could assist the wholesale distributor with future service changes.
